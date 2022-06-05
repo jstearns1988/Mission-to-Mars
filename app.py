@@ -2,7 +2,7 @@ from flask import Flask, render_template, redirect, url_for
 from flask_pymongo import PyMongo
 import scraping
 
-app = Falsk(__name__)
+app = Flask(__name__)
 
 # Use flask_pymongo to set up mongo connection
 app.config["MONGO_URI"] = "mongodb://localhost:27017/mars_app"
@@ -23,7 +23,7 @@ def scrape():
    return redirect('/', code=302)
 
 # Update the database
-.update_one(query_parameter, {"$set": data}, options)
+update_one(query_parameter, {"$set": data}, options)
 
 # Run Flask
 if __name__ == "__main__":
