@@ -9,4 +9,3 @@ While assisting Robin with her Mars web app, she decided she would like to inclu
   - Added Bootstrap 3 components
   
 ## Results
-![Mars Hemisphere Screenshot](https://github.com/jstearns1988/Mission-to-Mars/blob/main/Resources/Mars%20Hemispheres.png?raw=true)
